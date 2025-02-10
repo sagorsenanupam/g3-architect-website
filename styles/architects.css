@@ -184,6 +184,13 @@ main > section {
   filter: grayscale(100%);
 }
 
+/* Footer related styles */
+.footer-description {
+  background-color: #fff4e7;
+  padding: 39px 410px;
+  margin-top: 130px;
+}
+
 /* Responsive media query */
 @media screen and (max-width: 576px) {
   .navbar,
