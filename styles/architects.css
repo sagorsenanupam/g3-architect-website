@@ -8,10 +8,11 @@
 .display-flex {
   display: flex;
 }
-
+/* Dark-02 */
 .text-gray {
   color: #424242;
 }
+/* Dark-03 */
 .text-light-gray {
   color: #727272;
 }
@@ -35,7 +36,7 @@
   align-items: center;
 }
 .brand {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 3rem;
 }
 .nav-item {
@@ -48,7 +49,8 @@
 
 .navbar,
 .banner {
-  max-width: 1400px;
+  max-width: 85em;
+  margin: 0 auto;
 }
 
 /* Banner related styles */
@@ -63,7 +65,7 @@
   font-size: 4rem;
 }
 .banner-image {
-  width: 1400px;
+  width: 100%;
 }
 
 /* Responsive media query */
